@@ -7,7 +7,7 @@ Live Mouse Tracker Analysis tools :mouse:
 The analysis tools within this respository process the output of the Live Mouse Tracker, an SQLite file, in light with the experimental set up and design used in the Badura Lab.
 These tools are derived from the code made available by Fabrice de Chaumont and Elodie Ey (available at: https://github.com/fdechaumont/lmt-analysis)
 
-The code is currently maintained by [Amy Hassett](https://github.com/AmyRHassett)
+The code is currently maintained by Arun Karim
 
 ## How to use:
 
