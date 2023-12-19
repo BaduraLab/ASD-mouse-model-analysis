@@ -1,0 +1,201 @@
+/mnt/Data1/Arun/LMT/LMT_data/Not_processed/New L7s/01595-1-2-6_3-7-2023_std1/01595-1-2-6_3-7-2023_std1.sqlite
+Time of experiment start: 2023-07-03 11:29:04.569000
+Time of experiment end: 2023-07-03 14:48:32.663000
+Real duration of experiment: 11969.09400010109 s (359072.8200030327 frames)
+Number of frames recorded:  359029 frames (11967.633333333333 seconds or 199.46055555555554 minutes or 3.3243425925925925 hours or 0.13851427469135802 days)
+Number of frames omitted: 43.820003032684326 (0.012203653574312372 % of the total experiment duration)
+
+Animal 000005417072: 162602 missed detections over 359029 frames recorded (45.28937773828855 %)
+Animal 000005416810: 80803 missed detections over 359029 frames recorded (22.505981410972375 %)
+Animal 000005416982: 162418 missed detections over 359029 frames recorded (45.23812839631339 %)
+Number of RFID match for animal 000005417072: 0 (rate: 0.0 events/min)
+Number of RFID mismatch for animal 000005417072: 0 (rate: 0.0 events/min)
+Number of RFID match for animal 000005416810: 34 (rate: 5.2611039467254426e-08 events/min)
+Number of RFID mismatch for animal 000005416810: 0 (rate: 0.0 events/min)
+Number of RFID match for animal 000005416982: 0 (rate: 0.0 events/min)
+Number of RFID mismatch for animal 000005416982: 0 (rate: 0.0 events/min)
+
+Total number of each event type:
+Contact:	 1587
+Oral-oral Contact:	 2470
+Oral-genital Contact:	 3609
+Side by side Contact:	 571
+Side by side Contact, opposite way:	 0
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 1431
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 348
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+/mnt/Data1/Arun/LMT/LMT_data/Not_processed/New L7s/02436-05_02541-02-03-STD1/02436-05_02541-02-03-STD1.sqlite
+Time of experiment start: 2023-06-12 09:45:24.432000
+Time of experiment end: 2023-06-12 12:55:21.939000
+Real duration of experiment: 11398.506999969482 s (341955.2099990845 frames)
+Number of frames recorded:  341895 frames (11396.5 seconds or 189.94166666666666 minutes or 3.1656944444444446 hours or 0.13190393518518517 days)
+Number of frames omitted: 60.209999084472656 (0.017607568863955564 % of the total experiment duration)
+
+Animal 000005416936: 88846 missed detections over 341895 frames recorded (25.986340835636668 %)
+Animal 000005416897: 123534 missed detections over 341895 frames recorded (36.13214583424735 %)
+Animal 000005416818: 101597 missed detections over 341895 frames recorded (29.71584843299844 %)
+Number of RFID match for animal 000005416936: 12979 (rate: 2.0083490624867506e-05 events/min)
+Number of RFID mismatch for animal 000005416936: 2 (rate: 3.0947670274855544e-09 events/min)
+Number of RFID match for animal 000005416897: 131 (rate: 2.0270724030030382e-07 events/min)
+Number of RFID mismatch for animal 000005416897: 1 (rate: 1.5473835137427772e-09 events/min)
+Number of RFID match for animal 000005416818: 13 (rate: 2.0115985678656103e-08 events/min)
+Number of RFID mismatch for animal 000005416818: 1 (rate: 1.5473835137427772e-09 events/min)
+
+Total number of each event type:
+Contact:	 1331
+Oral-oral Contact:	 2472
+Oral-genital Contact:	 3544
+Side by side Contact:	 710
+Side by side Contact, opposite way:	 10
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 987
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 202
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+/mnt/Data1/Arun/LMT/LMT_data/Not_processed/New L7s/01927-04_02063-4-5_std_22-05-23/01927-04_02063-4-5_std_22-05-23.sqlite
+Time of experiment start: 2023-05-22 09:18:35.979000
+Time of experiment end: 2023-05-22 12:34:37.492000
+Real duration of experiment: 11762.513000011444 s (352875.3900003433 frames)
+Number of frames recorded:  352641 frames (11754.7 seconds or 195.91166666666666 minutes or 3.2651944444444445 hours or 0.13604976851851852 days)
+Number of frames omitted: 234.39000034332275 (0.06642288099011232 % of the total experiment duration)
+
+Animal 000005417090: 26823 missed detections over 352641 frames recorded (7.606319174457877 %)
+Animal 000005416928: 53544 missed detections over 352641 frames recorded (15.183713748543138 %)
+Animal 000005417035: 62361 missed detections over 352641 frames recorded (17.68399023369376 %)
+Number of RFID match for animal 000005417090: 2797 (rate: 4.328031687938547e-06 events/min)
+Number of RFID mismatch for animal 000005417090: 4 (rate: 6.189534054971109e-09 events/min)
+Number of RFID match for animal 000005416928: 35 (rate: 5.41584229809972e-08 events/min)
+Number of RFID mismatch for animal 000005416928: 35 (rate: 5.41584229809972e-08 events/min)
+Number of RFID match for animal 000005417035: 111 (rate: 1.7175957002544826e-07 events/min)
+Number of RFID mismatch for animal 000005417035: 31 (rate: 4.796888892602609e-08 events/min)
+
+Total number of each event type:
+Contact:	 2507
+Oral-oral Contact:	 3452
+Oral-genital Contact:	 4145
+Side by side Contact:	 901
+Side by side Contact, opposite way:	 18
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 2271
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 311
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+/mnt/Data1/Arun/LMT/LMT_data/Not_processed/New L7s/02436-04-02_02541-01_std1/02436-04-02_02541-01_std1.sqlite
+Time of experiment start: 2023-06-12 06:41:56.655000
+Time of experiment end: 2023-06-12 09:42:16.261000
+Real duration of experiment: 10820.605999946594 s (324618.1799983978 frames)
+Number of frames recorded:  324145 frames (10804.833333333334 seconds or 180.08055555555555 minutes or 3.0013425925925925 hours or 0.1250559413580247 days)
+Number of frames omitted: 473.17999839782715 (0.14576509498025111 % of the total experiment duration)
+
+Animal 000005416780: 17242 missed detections over 324145 frames recorded (5.319224421169544 %)
+Animal 000005417240: 4614 missed detections over 324145 frames recorded (1.4234370420645126 %)
+Animal 000005417256: 18405 missed detections over 324145 frames recorded (5.678014468833393 %)
+Number of RFID match for animal 000005416780: 57 (rate: 8.82008602833383e-08 events/min)
+Number of RFID mismatch for animal 000005416780: 6 (rate: 9.284301082456663e-09 events/min)
+Number of RFID match for animal 000005417240: 2534 (rate: 3.921069823824198e-06 events/min)
+Number of RFID mismatch for animal 000005417240: 2 (rate: 3.0947670274855544e-09 events/min)
+Number of RFID match for animal 000005417256: 54 (rate: 8.355870974210997e-08 events/min)
+Number of RFID mismatch for animal 000005417256: 11 (rate: 1.7021218651170548e-08 events/min)
+
+Total number of each event type:
+Contact:	 2270
+Oral-oral Contact:	 3326
+Oral-genital Contact:	 4583
+Side by side Contact:	 745
+Side by side Contact, opposite way:	 0
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 1549
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 224
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+

@@ -1,0 +1,30 @@
+# syllable id,counts
+"WallJump",487
+"Move isolated",32248
+"Rear isolated",8002
+"Move in contact",29447
+"Rear in contact",5197
+"FollowZone Isolated",1235
+"Stop isolated",28590
+"Huddling",14566
+"Stop in contact",34558
+"SAP",14140
+"Group 3 make",995
+"Group 3 break",1085
+"Approach",193695
+"Approach contact",13857
+"Social approach",101692
+"Approach rear",10185
+"Break contact",7414
+"Social escape",63876
+"Contact",25372
+"Oral-oral Contact",21295
+"Side by side Contact",19392
+"Side by side Contact, opposite way",19412
+"Oral-genital Contact",21658
+"seq oral geni - oral oral",399
+"seq oral oral - oral genital",630
+"Group2",10905
+"Group3",5512
+"TrainLeader",125
+"TrainFollower",141

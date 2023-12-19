@@ -1,0 +1,54 @@
+/mnt/Data1/Arun/LMT/LMT_data/Not processed/1125-3-6-9_6-1-2023_novel_mice/1125-3-6-9_6-1-2023_novel_mice.sqlite
+Time of experiment start: 2023-01-06 11:02:01.211000
+Time of experiment end: 2023-01-06 14:05:27.260000
+Real duration of experiment: 11007.049000024796 s (330211.47000074387 frames)
+Number of frames recorded:  329847 frames (10994.9 seconds or 183.24833333333333 minutes or 3.0541388888888887 hours or 0.12725578703703705 days)
+Number of frames omitted: 364.47000074386597 (0.11037472464025702 % of the total experiment duration)
+
+Animal 000005416973: 306206 missed detections over 329847 frames recorded (92.83273760258544 %)
+Animal 000005416947: 292535 missed detections over 329847 frames recorded (88.68808871992167 %)
+Animal 000005416812: 242270 missed detections over 329847 frames recorded (73.44920523757985 %)
+Animal 000005417089: 293570 missed detections over 329847 frames recorded (89.0018705642313 %)
+Number of RFID match for animal 000005416973: 519 (rate: 8.741426580606564e-07 events/min)
+Number of RFID mismatch for animal 000005416973: 3 (rate: 5.052847734454662e-09 events/min)
+Number of RFID match for animal 000005416947: 10 (rate: 1.684282578151554e-08 events/min)
+Number of RFID mismatch for animal 000005416947: 1 (rate: 1.6842825781515537e-09 events/min)
+Number of RFID match for animal 000005416812: 262 (rate: 4.412820354757071e-07 events/min)
+Number of RFID mismatch for animal 000005416812: 2 (rate: 3.3685651563031074e-09 events/min)
+Number of RFID match for animal 000005417089: 384 (rate: 6.467645100101967e-07 events/min)
+Number of RFID mismatch for animal 000005417089: 0 (rate: 0.0 events/min)
+
+Total number of each event type:
+Contact:	 1393
+Oral-oral Contact:	 6565
+Oral-genital Contact:	 7751
+Side by side Contact:	 2914
+Side by side Contact, opposite way:	 51
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 4527
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 508
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+

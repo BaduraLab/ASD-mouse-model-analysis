@@ -1,0 +1,113 @@
+%% README %%
+%======================== Script 1: SQL processing ========================%
+
+% The aim of this script is to take the LMT SQL file and process it.
+% Here, we extract data from the SQLite file and organise it in an
+% animal-per-animal basis, instead of its original "EVENT" basis.
+
+% Instructions:
+% 1. Insert file name into line 22 (incl. filetype)
+% 2. Change function name in line 35 depending on the experimental day type
+% 2.5 IF experimental day = NovelMouse, uncomment lines 47-60!!!!!!!! IF
+%     experimental day =/= NovelMouse, make sure that lines 47-60 are commented
+%     out!
+% 3. Run sections 1 and 2 of the code (STOP BEFORE STARTING SECTION 3)
+% 4. Inspect the "data" structure to assign the each animmal to the correct
+%    genotype group (see Section 3 for more instructions)
+% 5. Run section 3 of the code
+
+clc
+clear
+
+%% Section 1: Load
+% Insert name of SQLite file here: (incl. ".sqlite")
+%dbfile          =       "/mnt/Data1/Arun/LMT/LMT_data/Not processed/1125-3-6-8_2-1-2023_std1/LMT Data1125-3-6-8_2-1-2023_std1.sqlite";
+filenames = dir('/mnt/Data1/Arun/LMT/LMT_data/Not_processed/New L7s/*/*.sqlite');
+save_loc='/mnt/Data1/Arun/LMT/LMT_data/Not_processed/std1/L7_Final/';
+
+novel_mouse = false; %make true if experiment day is NovelMouse
+%% Section 2. Process SQL file > create "data" structure containing all mice info
+%make a folder for the output files if no such folder exists
+if not(isfolder(save_loc+"mat_files"))
+       mkdir(save_loc+"mat_files")
+end
+
+for i=1:length(filenames)
+    splitting=strsplit(filenames(i).name,'.');
+    name=string(splitting(1));
+    dbfile=filenames(i).folder+"/"+filenames(i).name; 
+% Implementation note:
+    % Depending on the experimental day (std1/std2/wheel/object/mouse), you
+    % must choose the corresponding function out the of the below list and
+    % insert it into the code here:
+    
+            % 1. ProcessSQL_std       (for std1/std2)
+            % 2. ProcessSQL_wheel     (for wheel)
+            % 3. ProcessSQL_obj       (for object)
+            % 4. ProcessSQL_mouse     (for mouse)
+            
+[results_All_BehavType, results_All, results_animalData] = ProcessSQL_std(dbfile); 
+
+% The following code creates Train Behaviours, and calls the function "TrainBehaviour" to do so.
+%%%Train Behaviours (Train Leader and Train Follower)
+[TrainBehaviourType, TrainBehaviourData] = TrainBehaviour(results_All_BehavType, results_All);
+
+results_All_BehavType = vertcat(results_All_BehavType, TrainBehaviourType);
+results_All           = vertcat(results_All, TrainBehaviourData);
+
+
+% !!!!!!!! Uncomment this code IF experimental day = NovelMouse !!!!!!!!!!!
+if novel_mouse
+% Group 4 Behaviours
+[Group4BehaviourType, Group4BehaviourData] = Group4Behaviour(results_All_BehavType, results_All);
+
+results_All_BehavType = vertcat(results_All_BehavType, Group4BehaviourType);
+results_All           = vertcat(results_All, Group4BehaviourData);
+
+% Nest 4 Behaviours
+[Nest4BehaviourType, Nest4BehaviourData] = Nest4Behaviour(results_All_BehavType, results_All);
+
+results_All_BehavType = vertcat(results_All_BehavType, Nest4BehaviourType);
+results_All           = vertcat(results_All, Nest4BehaviourData);
+end 
+
+% Create a structure containing our data, wherein each field corresponds to
+% a piece of data relating to the mice
+
+for k = 1:size(results_animalData)
+    data(k).Mice            =   results_animalData(k, 4);
+    data(k).Genotype        =   results_animalData(k, 3);
+    data(k).RFID            =   results_animalData(k, 2);
+    data(k).ID              =   cell2mat(results_animalData(k,1));
+    data(k).BehaviourType   =   results_All_BehavType((results_All(:,3) == k), 1);
+    data(k).BehaviourData   =   results_All(results_All(:,3) == k, :);
+    
+    % Note: BehaviourType and BehaviourData are separate because
+    % BehaviourType is a cell array, and BehaviourData is a matrix and this
+    % make computations much easier
+    
+    % Note: BehaviourData has the following structure:
+    %       StartFrame-EndFrame-Animal1-Animal2-Animal3-Animal4 (where
+    %       animals are the animals involved in the behaviour)
+end
+alldata=[data(:)];
+name=string(alldata(1).Mice); %name the file after the first mouse, possible adapt this 
+if not(isvarname(name))
+   if isvarname(filenames(i).name) %if the name of the first mouse isnt valid, try to name after the sqlite file
+   name=filenames(i).name
+   else
+    %if no valid variable name can be found,    
+    message="File "+string(filenames(i).name)+" has no valid filename. \nplease input a valid filename.\n(start with a letter,no spaces,or special characters except _, max length of 63 charachters):\n";
+    name=input(message,"s");
+    while not(isvarname(name))
+        message2=name+" is not a valid filename for "+string(filenames(i).name)+"\nplease input a valid filename.\n(start with a letter,no spaces,or special characters except _, max length of 63 charachters):\n";
+        name=input(message2,"s");
+    end
+   end
+end
+
+assignin('base',name,data(:));
+save_location=save_loc+"mat_files/"+name;
+save(save_location, name);
+end
+

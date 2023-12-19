@@ -1,0 +1,51 @@
+/mnt/Data1/Arun/LMT/LMT_data/Not processed/std1/1125-3-6-8_2-1-2023_std1/LMT Data1125-3-6-8_2-1-2023_std1.sqlite
+Time of experiment start: 2023-01-02 11:45:18.065000
+Time of experiment end: 2023-01-02 14:55:14.154000
+Real duration of experiment: 11397.088999986649 s (341912.66999959946 frames)
+Number of frames recorded:  341817 frames (11393.9 seconds or 189.89833333333334 minutes or 3.164972222222222 hours or 0.1318738425925926 days)
+Number of frames omitted: 95.66999959945679 (0.027980829022676717 % of the total experiment duration)
+
+Animal 000005417089: 140716 missed detections over 341817 frames recorded (41.167057226527646 %)
+Animal 000005416973: 140717 missed detections over 341817 frames recorded (41.167349780730625 %)
+Animal 000005416947: 140716 missed detections over 341817 frames recorded (41.167057226527646 %)
+Number of RFID match for animal 000005417089: 5599 (rate: 9.100061013804333e-06 events/min)
+Number of RFID mismatch for animal 000005417089: 1 (rate: 1.6253011276664284e-09 events/min)
+Number of RFID match for animal 000005416973: 2019 (rate: 3.2814829767585188e-06 events/min)
+Number of RFID mismatch for animal 000005416973: 4 (rate: 6.501204510665714e-09 events/min)
+Number of RFID match for animal 000005416947: 237 (rate: 3.851963672569435e-07 events/min)
+Number of RFID mismatch for animal 000005416947: 14 (rate: 2.2754215787329998e-08 events/min)
+
+Total number of each event type:
+Contact:	 1511
+Oral-oral Contact:	 3537
+Oral-genital Contact:	 4163
+Side by side Contact:	 2750
+Side by side Contact, opposite way:	 2360
+Social approach:	 9974
+Social escape:	 11867
+Approach contact:	 1149
+Approach rear:	 1724
+Break contact:	 1593
+Get away:	 17391
+FollowZone:	 4
+Train2:	 42
+Group2:	 1674
+Group3:	 183
+Group 3 break:	 183
+Group 3 make:	 183
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 8691
+Move isolated:	 5712
+Move in contact:	 4238
+Nest3:	 0
+Nest4:	 0
+Rearing:	 405
+Rear isolated:	 2222
+Rear in contact:	 1120
+Stop isolated:	 2366
+WallJump:	 63
+
+##############################################################
+

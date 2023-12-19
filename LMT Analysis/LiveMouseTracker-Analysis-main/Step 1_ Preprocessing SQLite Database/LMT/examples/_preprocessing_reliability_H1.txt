@@ -1,0 +1,51 @@
+/mnt/Data1/Arun/LMT/LMT_data/Not processed/std1/21-MI10447-5-6-9_21-03-2022_std1/21-MI10447-5-6-9_21-03-2022_std1.sqlite
+Time of experiment start: 2022-03-21 11:53:06.071000
+Time of experiment end: 2022-03-21 15:25:53.080000
+Real duration of experiment: 12768.008999824524 s (383040.2699947357 frames)
+Number of frames recorded:  383000 frames (12766.666666666666 seconds or 212.77777777777777 minutes or 3.5462962962962963 hours or 0.14776234567901234 days)
+Number of frames omitted: 40.26999473571777 (0.010513253537616611 % of the total experiment duration)
+
+Animal 000005416777: 231425 missed detections over 383000 frames recorded (60.42428198433421 %)
+Animal 000005416950: 258788 missed detections over 383000 frames recorded (67.56866840731071 %)
+Animal 000005417137: 294933 missed detections over 383000 frames recorded (77.00600522193211 %)
+Number of RFID match for animal 000005416777: 8206 (rate: 1.1903104148534958e-05 events/min)
+Number of RFID mismatch for animal 000005416777: 2 (rate: 2.901073397156948e-09 events/min)
+Number of RFID match for animal 000005416950: 1202 (rate: 1.7435451116913258e-06 events/min)
+Number of RFID mismatch for animal 000005416950: 10 (rate: 1.450536698578474e-08 events/min)
+Number of RFID match for animal 000005417137: 124 (rate: 1.7986655062373078e-07 events/min)
+Number of RFID mismatch for animal 000005417137: 44 (rate: 6.382361473745286e-08 events/min)
+
+Total number of each event type:
+Contact:	 3174
+Oral-oral Contact:	 4055
+Oral-genital Contact:	 4627
+Side by side Contact:	 1577
+Side by side Contact, opposite way:	 3
+Social approach:	 0
+Social escape:	 0
+Approach contact:	 0
+Approach rear:	 0
+Break contact:	 2162
+Get away:	 0
+FollowZone Isolated:	 0
+Train2:	 0
+Group2:	 0
+Group3:	 0
+Group 3 break:	 0
+Group 3 make:	 0
+Group4:	 0
+Group 4 break:	 0
+Group 4 make:	 0
+Huddling:	 0
+Move isolated:	 0
+Move in contact:	 0
+Nest3:	 0
+Nest4:	 0
+Rearing:	 411
+Rear isolated:	 0
+Rear in contact:	 0
+Stop isolated:	 0
+WallJump:	 0
+
+##############################################################
+
