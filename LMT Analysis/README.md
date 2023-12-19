@@ -25,3 +25,7 @@ These scripts process LMT data in MATLAB, by way of extracting EVENT-related dat
 
 ### Step 3: Produce Graphs
 After organising LMT data into groups, you can plot data using the scripts found in this folder. Each script contains information on how to implement/ modify the codes here.
+
+### LMT Significance
+Utilising the data from the LMT, construct a graph examining if the differences between the groups are significant utilising a 3-way ANOVA. 
+
